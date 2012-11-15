@@ -1,5 +1,6 @@
 /**
-* Copyright (c) 2012 David Pratt (for TideSDK).
+* Copyright (c) 2012 Software in the Public Interest (SPI) Inc.
+* Copyright (c) 2012 David Pratt
 * 
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -15,13 +16,13 @@
 **/
 
 // create and set menu
-var menu = Titanium.UI.createMenu(),
-fileItem = Titanium.UI.createMenuItem('File'),
+var menu = Ti.UI.createMenu(),
+fileItem = Ti.UI.createMenuItem('File'),
 exitItem = fileItem.addItem('Exit', function() {
   if (confirm('Are you sure you want to quit?')) {
-    Titanium.App.exit();
+    Ti.App.exit();
   }
 });
 
 menu.appendItem(fileItem);
-Titanium.UI.setMenu(menu);
+Ti.UI.setMenu(menu);
