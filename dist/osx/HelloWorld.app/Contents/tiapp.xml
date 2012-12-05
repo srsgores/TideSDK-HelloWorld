@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<ti:app xmlns:ti = 'http://ti.appcelerator.org'>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
 <id>com.tidesdk.helloworld</id>
 <name>HelloWorld</name>
 <version>0.2.0</version>
@@ -7,7 +6,7 @@
 <url>http//seangoresht.com</url>
 <icon>default_app_logo.png</icon>
 <copyright>2012 by Sean Goresht</copyright>
-	<!-- Window Definition - these values can be edited -->
+	
 	<window>
 		<id>initial</id>
 		<title>Application Title</title>
@@ -20,7 +19,7 @@
 		<min-height>0</min-height>
 		<fullscreen>false</fullscreen>
 		<resizable>true</resizable>
-		<chrome scrollbars = "true">true</chrome>
+		<chrome scrollbars="true">true</chrome>
 		<maximizable>true</maximizable>
 		<minimizable>true</minimizable>
 		<closeable>true</closeable>
