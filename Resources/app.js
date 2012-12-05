@@ -25,7 +25,6 @@ var menu = Ti.UI.createMenu(),
 			Ti.App.exit();
 		}
 	});
-	fileItem = Ti.ui.createSeperatorMenuItem();
 
 menu.appendItem(fileItem);
 Ti.UI.setMenu(menu);

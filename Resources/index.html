@@ -6,31 +6,55 @@
 </head>
 <body>
 <header>
-	<div class = "showcase centred row">
-		<hgroup>
-			<h1 class = "title">Status here</h1>
-			<h2 class = "subtitle">Subtitle here</h2>
-		</hgroup>
+	<div class = "row">
+		<div class = "threecol">
+			<hgroup class = "centred">
+				<h1 class = "title">Status here</h1>
+
+				<h2 class = "subtitle">Subtitle here</h2>
+			</hgroup>
+		</div>
+		<div class = "ninecol last">
+			<div class = "box centred">
+				<p>Put some content here</p>
+			</div>
+		</div>
 	</div>
 </header>
-<div class="row">
-	<aside class="sidebar well threecol">
+<div class = "row">
+	<aside class = "sidebar well threecol">
 		<h1>Button group example</h1>
-		<div class="btn-group">
-			<a class="btn" href="#"> <i class="icon-book"></i> View readme</a>
-			<a class="btn" href="#"> <i class="icon-eye-2"></i> View Features</a>
-			<a class="btn" href="#"> <i class="icon-mixer"></i> View Instruments</a>
+
+		<div class = "btn-group">
+			<a class = "btn" href = "#"> <i class = "icon-book"></i> Action 1</a>
+			<a class = "btn" href = "#"> <i class = "icon-eye-2"></i> Action 2</a>
+			<a class = "btn" href = "#"> <i class = "icon-browser"></i> Action 3</a>
 		</div>
 	</aside>
 	<article class = "ninecol last" role = "main">
-	<section class = "row">
-		<div class="centred box dashed">
-			<p>
-				Put your main content here.
-			</p>
-		</div>
-	</section>
-</article>
+		<section class = "row">
+			<div class = "centred box dashed">
+				<p>
+					Put your main content here.
+				</p>
+			</div>
+		</section>
+		<section class = "row">
+			<table class = "table table-bordered">
+				<caption>table title and/or explanatory text</caption>
+				<thead>
+				<tr>
+					<th>header</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>data</td>
+				</tr>
+				</tbody>
+			</table>
+		</section>
+	</article>
 </div>
 
 <footer>
@@ -38,8 +62,9 @@
 </footer>
 
 
-<script type = "text/javascript" src = "app.js"></script>
+<script src = "app.js"></script>
 <script src = "js/libs/jquery-1.8.2.min.js"></script>
+<script src = "js/libs/jquery.dataTables.min.js"></script>
 <script src = "js/script.js"></script>
 </body>
 </html>

@@ -1551,8 +1551,8 @@ h1 {
   font-size: 2em;
 }
 h1.title {
-  font-size: 3em;
-  margin-bottom: 1em;
+  font-size: 2.5em;
+  margin-bottom: 0.7em;
 }
 h2 {
   font-size: 1.5em;
@@ -1605,8 +1605,8 @@ p {
   behavior: url(PIE.htc);
 }
 .btn {
-  background: url(../img/twinkle_twinkle.png);
-  padding: 1em;
+  background: url(../img/debut_dark.png);
+  padding: 0.3em;
   vertical-align: middle;
   text-decoration: none;
   -webkit-border-radius: 0.8em;
