@@ -7,8 +7,8 @@
 
 body {
 	color: @textColor;
-	background-image: url(../img/blackorchid.png);
-	.box-shadow(0 0 18em #000);
+	//background-image: url(../img/batthern.png);
+	background: @white;
 	font-size: @baseFontSize;
 	font-family: @baseFontFamily;
 	font-weight: 400;
@@ -16,7 +16,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 100;
-	text-shadow: 0 1px 14px @text-colour;
+	text-shadow: 0 1px @text-colour;
 	margin: @margin 0;
 	.centred;
 }
@@ -67,13 +67,13 @@ p {
 }
 
 .btn {
-	background: url(../img/debut_dark.png);
-	padding: 0.3em;
+	background: url(../img/beige_paper.png);
+	padding: 0.6em;
 	vertical-align: middle;
 	text-decoration: none;
 	.rounded-corners(@borderRadiusLarge);
-	color: #DBDBDB;
-	text-shadow: 0 1px black;
+	color: #353535;
+	text-shadow: 0 1px #bfbfbf;
 	.box-shadow(~"inset 0 19px 42px -20px #686868");
 }
 
@@ -99,18 +99,20 @@ Media queries
 
 
 .box {
-	background: url("../img/debut_dark.png");
+	//background: url("../img/az_subtle.png");
 	.border-box;
 	padding: @padding;
-	border: 1px solid @grayDark;
-	.box-shadow(~"inset 30px 30px #363636");
+	border: 1px solid #a3a3a3;
 	.rounded-corners(@border-radius);
 	.transition-all(@transition-time);
 	&:hover {
-		.box-shadow(inset 0 0 3em #6f6f6f);
+		.box-shadow(0 0 0.4em #8b8b8b);
 	}
 	margin: 1em 0;
 	cursor: pointer;
+	&.dashed {
+		border: 3px dashed lighten(@text-colour, 30%);
+	}
 }
 
 figure {
@@ -129,4 +131,10 @@ figcaption {
 	&:hover {
 		background: lighten(#2E2E2E, 20%);
 	}
+}
+
+.drop-area {
+	font-size: 4em;
+	color: lighten(@text-colour, 40%);
+	margin-top: 1.5em;
 }

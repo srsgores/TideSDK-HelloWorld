@@ -1443,7 +1443,7 @@ table {
 /* Layout
 ----------------------------------------------------------------------------------------------------*/
 .row {
-  padding: 0 0.6666666666666666em;
+  padding: 0 0.75em;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1524,15 +1524,9 @@ table {
   margin-right: 0px;
 }
 body {
-  color: #ffffff;
-  background-image: url(../img/blackorchid.png);
-  -webkit-box-shadow: 0 0 18em #000000;
-  -moz-box-shadow: 0 0 18em #000000;
-  -khtml-box-shadow: 0 0 18em #000000;
-  -o-box-shadow: 0 0 18em #000000;
-  box-shadow: 0 0 18em #000000;
-  behavior: url(PIE.htc);
-  font-size: 18px;
+  color: #000000;
+  background: #ffffff;
+  font-size: 16px;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
@@ -1543,7 +1537,7 @@ h4,
 h5,
 h6 {
   font-weight: 100;
-  text-shadow: 0 1px 14px #ffffff;
+  text-shadow: 0 1px #000000;
   margin: 1em 0;
   text-align: center;
 }
@@ -1605,8 +1599,8 @@ p {
   behavior: url(PIE.htc);
 }
 .btn {
-  background: url(../img/debut_dark.png);
-  padding: 0.3em;
+  background: url(../img/beige_paper.png);
+  padding: 0.6em;
   vertical-align: middle;
   text-decoration: none;
   -webkit-border-radius: 0.8em;
@@ -1616,8 +1610,8 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #DBDBDB;
-  text-shadow: 0 1px black;
+  color: #353535;
+  text-shadow: 0 1px #bfbfbf;
   -webkit-box-shadow: inset 0 19px 42px -20px #686868;
   -moz-box-shadow: inset 0 19px 42px -20px #686868;
   -khtml-box-shadow: inset 0 19px 42px -20px #686868;
@@ -1642,17 +1636,11 @@ Media queries
   }
 }
 .box {
-  background: url("../img/debut_dark.png");
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 1em;
-  border: 1px solid #333333;
-  -webkit-box-shadow: inset 30px 30px #363636;
-  -moz-box-shadow: inset 30px 30px #363636;
-  -khtml-box-shadow: inset 30px 30px #363636;
-  -o-box-shadow: inset 30px 30px #363636;
-  box-shadow: inset 30px 30px #363636;
+  border: 1px solid #a3a3a3;
   -webkit-border-radius: 0.4em;
   -khtml-border-radius: 0.4em;
   -o-border-radius: 0.4em;
@@ -1670,12 +1658,15 @@ Media queries
   cursor: pointer;
 }
 .box:hover {
-  -webkit-box-shadow: inset 0 0 3em #6f6f6f;
-  -moz-box-shadow: inset 0 0 3em #6f6f6f;
-  -khtml-box-shadow: inset 0 0 3em #6f6f6f;
-  -o-box-shadow: inset 0 0 3em #6f6f6f;
-  box-shadow: inset 0 0 3em #6f6f6f;
+  -webkit-box-shadow: 0 0 0.4em #8b8b8b;
+  -moz-box-shadow: 0 0 0.4em #8b8b8b;
+  -khtml-box-shadow: 0 0 0.4em #8b8b8b;
+  -o-box-shadow: 0 0 0.4em #8b8b8b;
+  box-shadow: 0 0 0.4em #8b8b8b;
   behavior: url(PIE.htc);
+}
+.box.dashed {
+  border: 3px dashed #4d4d4d;
 }
 figure {
   text-align: center;
@@ -1702,4 +1693,9 @@ figcaption {
 }
 figcaption:hover {
   background: #616161;
+}
+.drop-area {
+  font-size: 4em;
+  color: #666666;
+  margin-top: 1.5em;
 }

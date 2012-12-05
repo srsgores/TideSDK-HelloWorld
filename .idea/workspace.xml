@@ -38,10 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="1" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0">
+            <state line="138" column="14" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.8852868">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/less/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="18" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-10.36">
               <folding />
             </state>
           </provider>
@@ -58,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="47" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.7909091">
+            <state line="17" column="46" selection-start="388" selection-end="388" vertical-scroll-proportion="-10.78125">
               <folding />
             </state>
           </provider>
@@ -82,9 +91,10 @@
       <list>
         <option value="$PROJECT_DIR$/tiapp.xml" />
         <option value="$PROJECT_DIR$/Resources/app.js" />
-        <option value="$PROJECT_DIR$/Resources/less/style.less" />
         <option value="$PROJECT_DIR$/Resources/js/script.js" />
+        <option value="$PROJECT_DIR$/Resources/less/variables.less" />
         <option value="$PROJECT_DIR$/Resources/index.html" />
+        <option value="$PROJECT_DIR$/Resources/less/style.less" />
       </list>
     </option>
   </component>
@@ -366,13 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="1" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="40" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
@@ -382,9 +385,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="18" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-10.36">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="47" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.7909091">
+        <state line="17" column="46" selection-start="388" selection-end="388" vertical-scroll-proportion="-10.78125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="14" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.8852868">
           <folding />
         </state>
       </provider>
